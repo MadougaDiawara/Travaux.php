@@ -1,0 +1,117 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top { 
+background-color:whitesmoke;
+padding: 100px 0;
+text-align: center;  
+}
+    header .logo {
+        color:blue;
+        font-size: 25px;
+        font-weight: bold;
+        position: fixed;
+    }
+    header .logo span{
+        color:gray;
+    }
+    header .h1 span{
+        color: gray;
+    }
+.top ul {
+list-style-type: none;
+padding: 0;
+}
+.top ul li{
+    display: flex; 
+
+}
+.top ul li a {
+    text-decoration: none;
+    color:blue;
+    font-weight:lighter;
+}
+.top ul li a {
+    text-decoration: none;
+    color:blue;
+    font-weight:lighter;
+}
+div{
+    padding: 0PX;
+}
+.contenu span {
+    color:gray;
+}
+.top ul li a:hover{
+    background-color:gray;
+    border-color: white;
+}
+.contenu{
+background-color:blue;
+padding: 100px;
+margin-top: 0px;
+text-align: center;
+color: gray;
+}
+.bottom{
+    background-color: white;
+    padding: 50px;
+    margin-top: 0px;
+    text-align: center;
+    color: gray;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select, form textarea {
+    width: 10%;
+    padding: 8px;
+    margin-top: 0 auto;
+}
+form input[type="submit"] {
+    width: auto;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  
+  form {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff; /* Bleu */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  p {
+    margin-top: 20px;
+  }
